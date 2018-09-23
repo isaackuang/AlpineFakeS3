@@ -1,2 +1,2 @@
-#!/bin/sh
-fakes3 -r /fakes3/data -p 5670
+#!/usr/bin/with-contenv sh
+fakes3 -r /fakes3/data -p 5670 --license LICENSE_KEY
